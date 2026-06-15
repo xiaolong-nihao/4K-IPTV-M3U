@@ -41,7 +41,7 @@ jobs:
             pip install -r "${{ github.workspace }}/requirements.txt"
           else
             echo "requirements.txt not found, fallback to direct install."
-            pip install "requests>=2.31.0"
+            pip install "requests>=2.31.0" aiohttp
           fi
 
       - name: Run updater
@@ -50,7 +50,7 @@ jobs:
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config.user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Rebase onto latest remote safely (generated files may exist).
           git stash push -u -m "generated outputs" || true
           git pull --rebase origin main || true
