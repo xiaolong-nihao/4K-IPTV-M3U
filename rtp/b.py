@@ -322,7 +322,7 @@ def fetch_channel_lines_by_province(
     now_dt = datetime.now()
 
     def _is_usable_status(status: str) -> bool:
-        return ("新上线" in status) or ("存活" in status)
+        return ("新上线" in status) #or ("存活" in status)
 
     def _is_recent_update(row: dict) -> bool:
         dt = _parse_site_datetime(row.get("update_time", ""))
