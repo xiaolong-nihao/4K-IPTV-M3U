@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-组播代理测速合并模块 - 复用专业测速逻辑
+专业测速合并模块 - 基于 get_speed_with_download 逻辑
 """
 
 import os
@@ -18,20 +18,13 @@ from aiohttp import ClientSession, TCPConnector
 SOURCE_TXT_DIR = "txt"
 SOURCE_M3U_DIR = "m3u"
 
-# 测速配置
-ENABLE_SPEED_TEST = True          # 是否启用测速
+# 测速配置（完全按照原版）
 SPEED_TEST_TIMEOUT = 5            # 测速超时时间(秒)
 SPEED_TEST_CONCURRENT = 20        # 并发测速数
-
-# 下载测速配置
-MIN_DOWNLOAD_SIZE = 64 * 1024     # 最小下载64KB
-MIN_MEASURE_TIME = 1.0            # 最短测量时间(秒)
-STABILITY_WINDOW = 4              # 稳定性窗口大小
-STABILITY_THRESHOLD = 0.12        # 波动小于12%认为稳定
+SPEED_TEST_FILTER_HOST = True     # 相同Host共享测速结果
 
 # 缓存配置
-ENABLE_CACHE = True               # 启用Host缓存
-CACHE_MAX_PER_HOST = 5            # 每个Host最多缓存几个结果
+ENABLE_CACHE = True
 
 # 合并配置
 MAX_SOURCES_PER_CHANNEL = 2       # 每个频道保留几个源
@@ -52,13 +45,13 @@ TVG_LOGO_BASE_URL = "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/"
 # ============================================
 
 
-class RtpProxyTester:
-    """组播代理测速器 - 专门测试 /rtp/ 代理链接"""
+class SpeedTester:
+    """专业测速器 - 完全按照原版 get_speed_with_download 逻辑"""
     
     def __init__(self, timeout=5, concurrent=20):
         self.timeout = timeout
         self.concurrent = concurrent
-        self.cache = {}
+        self.cache = {}  # host -> list of results
         self.session = None
     
     async def _get_session(self):
@@ -70,7 +63,7 @@ class RtpProxyTester:
         return self.session
     
     def extract_host(self, url):
-        """从URL中提取服务器地址"""
+        """提取Host用于缓存"""
         try:
             match = re.match(r'https?://([^/:]+)(?::(\d+))?', url)
             if match:
@@ -79,87 +72,67 @@ class RtpProxyTester:
         except:
             return url
     
-    def is_rtp_proxy(self, url):
-        """判断是否是组播代理链接"""
-        return '/rtp/' in url or '/udp/' in url or url.startswith('rtp://')
-    
     async def get_speed_with_download(self, url, session):
         """
-        下载测速 - 带稳定性检测
-        返回: (是否可用, 速度MB/s, 延迟ms)
+        完全按照原版 get_speed_with_download 逻辑
+        下载数据测速，返回 {speed, delay, size, time}
         """
         start_time = time.time()
+        delay = -1
         total_size = 0
-        speed_samples = []
-        last_sample_time = start_time
-        last_sample_size = 0
         
         try:
-            async with session.get(url, timeout=self.timeout) as resp:
-                if resp.status != 200:
-                    return False, 0, -1
+            async with session.get(url, timeout=self.timeout) as response:
+                if response.status != 200:
+                    return {'speed': 0, 'delay': -1, 'size': 0, 'time': 0}
                 
                 delay = int(round((time.time() - start_time) * 1000))
                 
-                async for chunk in resp.content.iter_any():
+                # 下载数据直到超时
+                async for chunk in response.content.iter_any():
                     if chunk:
                         total_size += len(chunk)
-                        now = time.time()
-                        elapsed = now - start_time
-                        delta_t = now - last_sample_time
-                        delta_b = total_size - last_sample_size
                         
-                        if delta_t > 0 and delta_b > 0:
-                            inst_speed = delta_b / delta_t / 1024 / 1024
-                            speed_samples.append(inst_speed)
-                            last_sample_time = now
-                            last_sample_size = total_size
-                        
-                        # 稳定性检测
-                        if (elapsed >= MIN_MEASURE_TIME and 
-                            total_size >= MIN_DOWNLOAD_SIZE and
-                            len(speed_samples) >= STABILITY_WINDOW):
-                            
-                            window = speed_samples[-STABILITY_WINDOW:]
-                            mean = sum(window) / len(window)
-                            if mean > 0 and (max(window) - min(window)) / mean < STABILITY_THRESHOLD:
-                                total_time = time.time() - start_time
-                                speed = total_size / total_time / 1024 / 1024
-                                return True, speed, delay
-                
-                total_time = time.time() - start_time
-                speed = total_size / total_time / 1024 / 1024 if total_time > 0 else 0
-                return speed > 0, speed, delay
-                
         except asyncio.TimeoutError:
-            return False, 0, -1
+            pass
         except Exception:
-            return False, 0, -1
-    
-    async def test_channel(self, name, url):
-        """测试单个频道"""
-        session = await self._get_session()
+            pass
         
+        total_time = time.time() - start_time
+        speed = total_size / total_time / 1024 / 1024 if total_time > 0 else 0
+        
+        return {
+            'speed': speed,
+            'delay': delay,
+            'size': total_size,
+            'time': total_time,
+        }
+    
+    async def test_channel(self, name, url, session):
+        """测试单个频道"""
         # 检查缓存
         host = self.extract_host(url)
-        if ENABLE_CACHE and host in self.cache:
+        if ENABLE_CACHE and SPEED_TEST_FILTER_HOST and host in self.cache:
             cached = self.cache[host]
             if cached:
-                avg_speed = sum(r[0] for r in cached) / len(cached)
-                avg_delay = sum(r[1] for r in cached) / len(cached)
+                avg_speed = sum(r['speed'] for r in cached) / len(cached)
+                avg_delay = sum(r['delay'] for r in cached) / len(cached)
                 print(f"      [缓存] {name}: {avg_speed:.2f}MB/s, {avg_delay:.0f}ms")
                 return True, avg_speed, avg_delay
         
-        # 测试
-        is_alive, speed, delay = await self.get_speed_with_download(url, session)
+        # 测速
+        result = await self.get_speed_with_download(url, session)
+        speed = result['speed']
+        delay = result['delay']
         
-        if is_alive and speed > 0:
+        if speed > 0 and delay > 0:
             print(f"      ✓ {name}: {speed:.2f}MB/s, {delay}ms")
             
             # 缓存结果
-            if ENABLE_CACHE and host:
-                self.cache.setdefault(host, []).append((speed, delay))
-                if len(self.cache[host]) > CACHE_MAX_PER_HOST:
+            if ENABLE_CACHE and SPEED_TEST_FILTER_HOST and host:
+                self.cache.setdefault(host, []).append(result)
+                # 限制缓存大小
+                if len(self.cache[host]) > 5:
                     self.cache[host].pop(0)
             
             return True, speed, delay
@@ -172,13 +145,14 @@ class RtpProxyTester:
         if not channels:
             return []
         
+        session = await self._get_session()
         print(f"  [测速] 共 {len(channels)} 个频道，并发: {self.concurrent}")
         
         semaphore = asyncio.Semaphore(self.concurrent)
         
         async def test_one(name, url):
             async with semaphore:
-                return await self.test_channel(name, url)
+                return await self.test_channel(name, url, session)
         
         tasks = [test_one(name, url) for name, url in channels]
         results = await asyncio.gather(*tasks)
@@ -189,6 +163,7 @@ class RtpProxyTester:
                 name, url = channels[i]
                 valid.append((name, url, speed, delay))
         
+        # 按速度降序排序
         valid.sort(key=lambda x: x[2], reverse=True)
         
         print(f"  [结果] 存活 {len(valid)}/{len(channels)} 个频道")
@@ -333,10 +308,9 @@ async def main_async():
     m3u_dir = os.path.join(project_root, SOURCE_M3U_DIR)
     
     print(f"\n{'='*50}")
-    print(f"组播代理测速合并工具")
+    print(f"专业测速合并工具")
     print(f"测速配置: 超时={SPEED_TEST_TIMEOUT}s, 并发={SPEED_TEST_CONCURRENT}")
-    print(f"下载测速: 最小{MIN_DOWNLOAD_SIZE//1024}KB, 稳定窗口{STABILITY_WINDOW}个样本, 波动<{STABILITY_THRESHOLD*100:.0f}%")
-    print(f"缓存: {'启用' if ENABLE_CACHE else '禁用'}")
+    print(f"Host缓存: {'启用' if SPEED_TEST_FILTER_HOST else '禁用'}")
     print(f"TXT目录: {txt_dir}")
     print(f"{'='*50}")
     
@@ -358,22 +332,17 @@ async def main_async():
         return
     
     # 2. 测速
-    if ENABLE_SPEED_TEST:
-        print("\n[2] 开始测速...")
-        tester = RtpProxyTester(timeout=SPEED_TEST_TIMEOUT, concurrent=SPEED_TEST_CONCURRENT)
-        
-        for operator in all_channels:
-            if all_channels[operator]:
-                print(f"\n  [{operator}] 测速中...")
-                channels = all_channels[operator]
-                valid = await tester.batch_test(channels)
-                all_channels[operator] = valid
-        
-        await tester.close()
-    else:
-        print("\n[2] 跳过测速，直接合并...")
-        for operator in all_channels:
-            all_channels[operator] = [(name, url, 1.0, 50) for name, url in all_channels[operator]]
+    print("\n[2] 开始测速...")
+    tester = SpeedTester(timeout=SPEED_TEST_TIMEOUT, concurrent=SPEED_TEST_CONCURRENT)
+    
+    for operator in all_channels:
+        if all_channels[operator]:
+            print(f"\n  [{operator}] 测速中...")
+            channels = all_channels[operator]
+            valid = await tester.batch_test(channels)
+            all_channels[operator] = valid
+    
+    await tester.close()
     
     # 3. 保存合并文件
     save_merge_files(txt_dir, m3u_dir, all_channels)
