@@ -41,11 +41,14 @@ jobs:
             pip install -r "${{ github.workspace }}/requirements.txt"
           else
             echo "requirements.txt not found, fallback to direct install."
-            pip install "requests>=2.31.0"
+            pip install "requests>=2.31.0" pycryptodome
           fi
 
-      - name: Run updater
+      - name: Run updater (b.py)
         run: python rtp/b.py
+
+      - name: Run speedtest and merge (a.py)
+        run: python rtp/a.py
 
       - name: Commit and push if changed
         run: |
