@@ -14,7 +14,7 @@ SOURCE_TXT_DIR = "txt"
 SOURCE_M3U_DIR = "m3u"
 
 # 合并配置
-MAX_SOURCES_PER_CHANNEL = 2       # 每个频道保留几个源（按文件顺序，取前N个）
+MAX_SOURCES_PER_CHANNEL = 5       # 每个频道保留几个源（按文件顺序，取前N个）
 MAX_CHANNELS_PER_OPERATOR = 500   # 每个运营商最多频道数
 
 MERGE_FILE_NAMES = {
