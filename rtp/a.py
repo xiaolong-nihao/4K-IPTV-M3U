@@ -14,8 +14,8 @@ SOURCE_TXT_DIR = "txt"
 SOURCE_M3U_DIR = "m3u"
 
 # 合并配置
-MAX_SOURCES_PER_CHANNEL = 2       # 每个频道保留几个源
-MAX_CHANNELS_PER_OPERATOR = 500   # 每个运营商最多频道数（0=不限制）
+MAX_SOURCES_PER_CHANNEL = 5       # 每个频道保留几个源
+MAX_CHANNELS_PER_OPERATOR = 0   # 每个运营商最多频道数（0=不限制）
 
 # 频道名称正则处理
 ENABLE_CHANNEL_CLEAN = True
