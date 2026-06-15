@@ -807,11 +807,14 @@ def main():
     update_readme_file_list(repo_root)
     generated_files.append(README_FILE)
     
-    # 调用 a.py 进行测速合并
+    # ========== 调用测速合并模块 ==========
     print("\n" + "="*50)
     print("开始执行测速合并...")
     print("="*50)
-    os.system("python a.py")
+    import subprocess
+    import sys
+    subprocess.run([sys.executable, os.path.join(script_dir, "a.py")])
+    # ====================================
     
     if args.push:
         print("\n[] 流水线本地文件生成完毕，准备执行 GitHub 同步...")
