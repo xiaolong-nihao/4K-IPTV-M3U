@@ -15,7 +15,7 @@ SOURCE_M3U_DIR = "m3u"
 
 # 合并配置
 MAX_SOURCES_PER_CHANNEL = 5       # 每个频道保留几个源（按文件顺序，取前N个）
-MAX_CHANNELS_PER_OPERATOR = 500   # 每个运营商最多频道数
+MAX_CHANNELS_PER_OPERATOR = 0   # 每个运营商最多频道数（0=不限制）
 
 MERGE_FILE_NAMES = {
     "电信": "ChinaTelecom",
@@ -111,7 +111,7 @@ def save_merge_files(txt_dir, m3u_dir, all_channels):
         # 去重
         channels = deduplicate_channels(channels, MAX_SOURCES_PER_CHANNEL)
         
-        # 限制数量
+        # 限制数量（0=不限制）
         if MAX_CHANNELS_PER_OPERATOR > 0 and len(channels) > MAX_CHANNELS_PER_OPERATOR:
             channels = channels[:MAX_CHANNELS_PER_OPERATOR]
             print(f"  [限制] {operator}: 限制为 {MAX_CHANNELS_PER_OPERATOR} 个频道")
