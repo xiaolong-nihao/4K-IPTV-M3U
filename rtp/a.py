@@ -15,7 +15,7 @@ from collections import defaultdict
 from urllib.parse import quote
 
 # ================= 配置区域 =================
-# 原文件生成的目录（相对于当前脚本）
+# 原文件生成的目录（相对于项目根目录）
 SOURCE_TXT_DIR = "txt"      # b.py生成的txt目录
 SOURCE_M3U_DIR = "m3u"      # b.py生成的m3u目录
 
@@ -275,13 +275,15 @@ def delete_origin_files(txt_dir, m3u_dir):
 
 
 def main():
-    # 获取脚本所在目录
+    # 获取项目根目录（a.py 在 rtp/ 目录下，上一级是项目根目录）
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    txt_dir = os.path.join(script_dir, SOURCE_TXT_DIR)
-    m3u_dir = os.path.join(script_dir, SOURCE_M3U_DIR)
+    project_root = os.path.dirname(script_dir)  # 项目根目录
+    txt_dir = os.path.join(project_root, SOURCE_TXT_DIR)
+    m3u_dir = os.path.join(project_root, SOURCE_M3U_DIR)
     
     print(f"\n{'='*50}")
     print(f"测速合并工具 a.py")
+    print(f"项目根目录: {project_root}")
     print(f"TXT目录: {txt_dir}")
     print(f"M3U目录: {m3u_dir}")
     print(f"{'='*50}")
