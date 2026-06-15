@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-测速合并模块 - 调用 iptv_crawler.py 生成的文件进行测速和合并
-使用方法: python merge_speedtest.py
+测速合并模块 - 读取 b.py 生成的文件进行测速和合并
+使用方法: python a.py
 """
 
 import os
@@ -16,8 +16,8 @@ from urllib.parse import quote
 
 # ================= 配置区域 =================
 # 原文件生成的目录（相对于当前脚本）
-SOURCE_TXT_DIR = "txt"      # 原文件生成的txt目录
-SOURCE_M3U_DIR = "m3u"      # 原文件生成的m3u目录
+SOURCE_TXT_DIR = "txt"      # b.py生成的txt目录
+SOURCE_M3U_DIR = "m3u"      # b.py生成的m3u目录
 
 # 测速配置
 SPEEDTEST_TIMEOUT = 5        # 测速超时时间(秒)
@@ -281,13 +281,19 @@ def main():
     m3u_dir = os.path.join(script_dir, SOURCE_M3U_DIR)
     
     print(f"\n{'='*50}")
-    print(f"测速合并工具")
+    print(f"测速合并工具 a.py")
     print(f"TXT目录: {txt_dir}")
     print(f"M3U目录: {m3u_dir}")
     print(f"{'='*50}")
     
+    # 检查目录是否存在
+    if not os.path.exists(txt_dir):
+        print(f"[-] 目录不存在: {txt_dir}")
+        print("[*] 请先运行 b.py 生成文件")
+        return
+    
     # 1. 读取所有频道
-    print("\n[1] 读取原文件...")
+    print("\n[1] 读取b.py生成的文件...")
     all_channels = read_all_channels(txt_dir)
     
     total_raw = sum(len(v) for v in all_channels.values())
@@ -297,7 +303,7 @@ def main():
             print(f"    - {op}: {len(chs)} 个")
     
     if total_raw == 0:
-        print("[-] 没有找到任何频道，请先运行 iptv_crawler.py")
+        print("[-] 没有找到任何频道，请先运行 b.py")
         return
     
     # 2. 测速
