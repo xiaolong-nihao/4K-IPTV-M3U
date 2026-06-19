@@ -1,42 +1,4 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
-#EXTINF:-1 group-title="山东4K组播",山东4K组播
-#EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",浙江卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.27:8000
-#EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",湖南卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.28:8000
-#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",深圳卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.61:8000
-#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",广东卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.108:8000
-#EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",四川卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.123:8000
-#EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",东方卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.176:8000
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="山东4K组播",北京卫视 4K
-http://39.88.175.163:4002/rtp/239.253.242.200:8000
-#EXTINF:-1 group-title="河南4K组播",河南4K组播
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",北京卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.67:1377
-#EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",东方卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.70:1380
-#EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",浙江卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.72:1382
-#EXTINF:-1 tvg-id="江苏卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",江苏卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.71:1381
-#EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",湖南卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.76:1386
-#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",广东卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.69:1379
-#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",深圳卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.68:1378
-#EXTINF:-1 tvg-id="山东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",山东卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.73:1383
-#EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",四川卫视 4K
-http://182.119.196.237:4022/rtp/225.1.5.75:1385
-#EXTINF:-1 tvg-id="河南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="河南4K组播",河南卫视 4K
-http://182.119.196.237:4022/rtp/225.1.4.254:1300
-#EXTINF:-1 tvg-id="爱上- 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%88%B1%E4%B8%8A-%204K.png" group-title="河南4K组播",爱上- 4K
-http://182.119.196.237:4022/rtp/225.1.4.162:1204
 #EXTINF:-1 group-title="黑龙江4K组播",黑龙江4K组播
 #EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="黑龙江4K组播",北京卫视 4K
 http://113.4.191.59:4001/rtp/229.58.190.212:5000
