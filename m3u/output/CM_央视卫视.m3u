@@ -1,0 +1,124 @@
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
+#EXTINF:-1 group-title="北京央视卫视",北京央视卫视
+#EXTINF:-1 tvg-id="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png" group-title="北京央视卫视",CCTV4
+http://223.72.47.86:4022/rtp/228.1.1.227:2000
+#EXTINF:-1 tvg-id="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png" group-title="北京央视卫视",CCTV4
+http://223.72.47.86:4022/rtp/228.1.1.25:8092
+#EXTINF:-1 tvg-id="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png" group-title="北京央视卫视",CCTV4
+http://223.72.47.86:4022/rtp/228.1.1.213:4220
+#EXTINF:-1 tvg-id="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png" group-title="北京央视卫视",CCTV4
+http://223.72.47.86:4022/rtp/228.1.1.203:4220
+#EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="北京央视卫视",CCTV1
+http://223.72.47.86:4022/rtp/228.1.1.28:8008
+#EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="北京央视卫视",CCTV1
+http://223.72.47.86:4022/rtp/228.1.1.29:8116
+#EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="北京央视卫视",CCTV1
+http://223.72.47.86:4022/rtp/228.1.1.182:8120
+#EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="北京央视卫视",CCTV1
+http://223.72.47.86:4022/rtp/228.1.1.30:8124
+#EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV1.png" group-title="北京央视卫视",CCTV1
+http://223.72.47.86:4022/rtp/228.1.1.212:8128
+#EXTINF:-1 tvg-id="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV2.png" group-title="北京央视卫视",CCTV2
+http://223.72.47.86:4022/rtp/228.1.1.24:8084
+#EXTINF:-1 tvg-id="CCTV3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV3.png" group-title="北京央视卫视",CCTV3
+http://223.72.47.86:4022/rtp/228.1.1.191:8002
+#EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5.png" group-title="北京央视卫视",CCTV5
+http://223.72.47.86:4022/rtp/228.1.1.192:8002
+#EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5.png" group-title="北京央视卫视",CCTV5
+http://223.72.47.86:4022/rtp/228.1.1.23:8004
+#EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png" group-title="北京央视卫视",CCTV6
+http://223.72.47.86:4022/rtp/228.1.1.193:8002
+#EXTINF:-1 tvg-id="CCTV7" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV7.png" group-title="北京央视卫视",CCTV7
+http://223.72.47.86:4022/rtp/228.1.1.26:8104
+#EXTINF:-1 tvg-id="CCTV8" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV8.png" group-title="北京央视卫视",CCTV8
+http://223.72.47.86:4022/rtp/228.1.1.194:8002
+#EXTINF:-1 tvg-id="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV9.png" group-title="北京央视卫视",CCTV9
+http://223.72.47.86:4022/rtp/228.1.1.27:8112
+#EXTINF:-1 tvg-id="CETV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CETV1.png" group-title="北京央视卫视",CETV1
+http://223.72.47.86:4022/rtp/228.1.1.32:8152
+#EXTINF:-1 tvg-id="CGTN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN.png" group-title="北京央视卫视",CGTN
+http://223.72.47.86:4022/rtp/228.1.1.204:4220
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN%E7%BA%AA%E5%BD%95.png" group-title="北京央视卫视",CGTN纪录
+http://223.72.47.86:4022/rtp/228.1.1.205:4220
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN%E4%BF%84%E8%AF%AD.png" group-title="北京央视卫视",CGTN俄语
+http://223.72.47.86:4022/rtp/228.1.1.209:4220
+#EXTINF:-1 tvg-id="CGTN西语" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN%E8%A5%BF%E8%AF%AD.png" group-title="北京央视卫视",CGTN西语
+http://223.72.47.86:4022/rtp/228.1.1.206:4220
+#EXTINF:-1 tvg-id="CGTN法语" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CGTN%E6%B3%95%E8%AF%AD.png" group-title="北京央视卫视",CGTN法语
+http://223.72.47.86:4022/rtp/228.1.1.207:4220
+#EXTINF:-1 tvg-id="重庆卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",重庆卫视
+http://223.72.47.86:4022/rtp/228.1.1.210:8160
+#EXTINF:-1 tvg-id="江苏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",江苏卫视
+http://223.72.47.86:4022/rtp/228.1.1.37:8028
+#EXTINF:-1 tvg-id="浙江卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",浙江卫视
+http://223.72.47.86:4022/rtp/228.1.1.13:8036
+#EXTINF:-1 tvg-id="东方卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",东方卫视
+http://223.72.47.86:4022/rtp/228.1.1.39:8032
+#EXTINF:-1 tvg-id="深圳卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",深圳卫视
+http://223.72.47.86:4022/rtp/228.1.1.36:8020
+#EXTINF:-1 tvg-id="北京卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",北京卫视
+http://223.72.47.86:4022/rtp/228.1.1.115:8000
+#EXTINF:-1 tvg-id="山东卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",山东卫视
+http://223.72.47.86:4022/rtp/228.1.1.18:8052
+#EXTINF:-1 tvg-id="天津卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",天津卫视
+http://223.72.47.86:4022/rtp/228.1.1.15:1234
+#EXTINF:-1 tvg-id="贵州卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",贵州卫视
+http://223.72.47.86:4022/rtp/228.1.1.188:8076
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",黑龙江卫视
+http://223.72.47.86:4022/rtp/228.1.1.35:8016
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",安徽卫视
+http://223.72.47.86:4022/rtp/228.1.1.21:8064
+#EXTINF:-1 tvg-id="江西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",江西卫视
+http://223.72.47.86:4022/rtp/228.1.1.211:8164
+#EXTINF:-1 tvg-id="湖北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",湖北卫视
+http://223.72.47.86:4022/rtp/228.1.1.16:8044
+#EXTINF:-1 tvg-id="东南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",东南卫视
+http://223.72.47.86:4022/rtp/228.1.1.185:8148
+#EXTINF:-1 tvg-id="吉林卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",吉林卫视
+http://223.72.47.86:4022/rtp/228.1.1.214:8172
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",辽宁卫视
+http://223.72.47.86:4022/rtp/228.1.1.19:8056
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",湖南卫视
+http://223.72.47.86:4022/rtp/228.1.1.33:8012
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",广东卫视
+http://223.72.47.86:4022/rtp/228.1.1.17:8048
+#EXTINF:-1 tvg-id="河南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",河南卫视
+http://223.72.47.86:4022/rtp/228.1.1.236:8184
+#EXTINF:-1 tvg-id="河北卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",河北卫视
+http://223.72.47.86:4022/rtp/228.1.1.187:8072
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",宁夏卫视
+http://223.72.47.86:4022/rtp/228.1.1.244:8212
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",甘肃卫视
+http://223.72.47.86:4022/rtp/228.1.1.242:8180
+#EXTINF:-1 tvg-id="新疆卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",新疆卫视
+http://223.72.47.86:4022/rtp/228.1.1.246:8192
+#EXTINF:-1 tvg-id="西藏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",西藏卫视
+http://223.72.47.86:4022/rtp/228.1.1.245:8188
+#EXTINF:-1 tvg-id="兵团卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",兵团卫视
+http://223.72.47.86:4022/rtp/228.1.1.243:8196
+#EXTINF:-1 tvg-id="CETV2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CETV2.png" group-title="北京央视卫视",CETV2
+http://223.72.47.86:4022/rtp/228.1.1.97:4120
+#EXTINF:-1 tvg-id="CETV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CETV4.png" group-title="北京央视卫视",CETV4
+http://223.72.47.86:4022/rtp/228.1.1.99:4120
+#EXTINF:-1 tvg-id="四川卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",四川卫视
+http://223.72.47.86:4022/rtp/228.1.1.77:8288
+#EXTINF:-1 tvg-id="云南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",云南卫视
+http://223.72.47.86:4022/rtp/228.1.1.44:8108
+#EXTINF:-1 tvg-id="广西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",广西卫视
+http://223.72.47.86:4022/rtp/228.1.1.80:8300
+#EXTINF:-1 tvg-id="山西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",山西卫视
+http://223.72.47.86:4022/rtp/228.1.1.58:8172
+#EXTINF:-1 tvg-id="旅游卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%97%85%E6%B8%B8%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",旅游卫视
+http://223.72.47.86:4022/rtp/228.1.1.81:8304
+#EXTINF:-1 tvg-id="陕西卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",陕西卫视
+http://223.72.47.86:4022/rtp/228.1.1.53:8140
+#EXTINF:-1 tvg-id="厦门卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8E%A6%E9%97%A8%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",厦门卫视
+http://223.72.47.86:4022/rtp/228.1.1.176:4120
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",内蒙古卫视
+http://223.72.47.86:4022/rtp/228.1.1.59:8176
+#EXTINF:-1 tvg-id="青海卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",青海卫视
+http://223.72.47.86:4022/rtp/228.1.1.60:8184
+#EXTINF:-1 tvg-id="三沙卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",三沙卫视
+http://223.72.47.86:4022/rtp/228.1.1.186:4120
+#EXTINF:-1 tvg-id="山东教育卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2%E5%8D%AB%E8%A7%86.png" group-title="北京央视卫视",山东教育卫视
+http://223.72.47.86:4022/rtp/228.1.1.96:4120
