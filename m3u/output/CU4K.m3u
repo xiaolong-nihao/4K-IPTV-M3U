@@ -1,22 +1,22 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
 #EXTINF:-1 group-title="重庆4K组播",重庆4K组播
 #EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",北京卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.122:7980
+http://113.205.194.5:8001/rtp/225.0.4.122:7980
 #EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",东方卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.103:7980
+http://113.205.194.5:8001/rtp/225.0.4.103:7980
 #EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",广东卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.102:7980
+http://113.205.194.5:8001/rtp/225.0.4.102:7980
 #EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",深圳卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.101:7980
+http://113.205.194.5:8001/rtp/225.0.4.101:7980
 #EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",湖南卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.107:7980
+http://113.205.194.5:8001/rtp/225.0.4.107:7980
 #EXTINF:-1 tvg-id="山东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",山东卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.106:7980
+http://113.205.194.5:8001/rtp/225.0.4.106:7980
 #EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",四川卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.108:7980
+http://113.205.194.5:8001/rtp/225.0.4.108:7980
 #EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",浙江卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.105:7980
+http://113.205.194.5:8001/rtp/225.0.4.105:7980
 #EXTINF:-1 tvg-id="江苏卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",江苏卫视 4K
-http://27.11.50.87:8010/rtp/225.0.4.104:7980
+http://113.205.194.5:8001/rtp/225.0.4.104:7980
 #EXTINF:-1 tvg-id="爱上4K(轮播频道)" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%88%B1%E4%B8%8A4K%28%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93%29.png" group-title="重庆4K组播",爱上4K(轮播频道)
-http://27.11.50.87:8010/rtp/225.0.4.226:7980
+http://113.205.194.5:8001/rtp/225.0.4.226:7980
