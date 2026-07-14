@@ -1,12 +1,12 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
 #EXTINF:-1 group-title="江苏4K组播",江苏4K组播
 #EXTINF:-1 tvg-id="花园 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%8A%B1%E5%9B%AD%204K.png" group-title="江苏4K组播",花园 4K
-http://114.233.242.110:4000/rtp/239.49.8.205:6000
+http://121.228.158.138:8800/rtp/239.49.8.205:6000
 #EXTINF:-1 tvg-id="花园 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%8A%B1%E5%9B%AD%204K.png" group-title="江苏4K组播",花园 4K
-http://114.233.242.110:4000/rtp/239.49.8.207:6000
+http://121.228.158.138:8800/rtp/239.49.8.207:6000
 #EXTINF:-1 tvg-id="花园 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%8A%B1%E5%9B%AD%204K.png" group-title="江苏4K组播",花园 4K
-http://114.233.242.110:4000/rtp/239.49.8.208:6000
+http://121.228.158.138:8800/rtp/239.49.8.208:6000
 #EXTINF:-1 tvg-id="现场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%8E%B0%E5%9C%BA%204K.png" group-title="江苏4K组播",现场 4K
-http://114.233.242.110:4000/rtp/239.49.8.222:6000
+http://121.228.158.138:8800/rtp/239.49.8.222:6000
 #EXTINF:-1 tvg-id="欢笑剧场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA%204K.png" group-title="江苏4K组播",欢笑剧场 4K
-http://114.233.242.110:4000/rtp/239.49.8.231:6000
+http://121.228.158.138:8800/rtp/239.49.8.231:6000
