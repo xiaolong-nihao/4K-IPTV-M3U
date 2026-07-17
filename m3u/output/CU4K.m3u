@@ -2,9 +2,5 @@
 #EXTINF:-1 group-title="辽宁4K组播",辽宁4K组播
 #EXTINF:-1 tvg-id="欢笑剧场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA%204K.png" group-title="辽宁4K组播",欢笑剧场 4K
 http://119.108.105.210:8089/rtp/232.0.0.98:1234
-#EXTINF:-1 tvg-id="欢笑剧场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA%204K.png" group-title="辽宁4K组播",欢笑剧场 4K
-http://175.150.183.125:9007/rtp/232.0.0.98:1234
 #EXTINF:-1 tvg-id="爱上 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%88%B1%E4%B8%8A%204K.png" group-title="辽宁4K组播",爱上 4K
 http://119.108.105.210:8089/rtp/232.0.0.187:1234
-#EXTINF:-1 tvg-id="爱上 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%88%B1%E4%B8%8A%204K.png" group-title="辽宁4K组播",爱上 4K
-http://175.150.183.125:9007/rtp/232.0.0.187:1234
