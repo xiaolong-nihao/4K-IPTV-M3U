@@ -32,22 +32,3 @@ http://116.237.161.27:8881/rtp/233.18.204.170:5140
 http://116.237.161.27:8881/rtp/233.18.204.201:5140
 #EXTINF:-1 tvg-id="四川卫视4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%864K.png" group-title="上海4K组播",四川卫视4K
 http://116.237.161.27:8881/rtp/233.18.204.99:5140
-#EXTINF:-1 group-title="安徽4K组播",安徽4K组播
-#EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",东方卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.39:4428
-#EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",浙江卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.28:4336
-#EXTINF:-1 tvg-id="江苏卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",江苏卫视 4K
-http://60.168.237.238:6688/rtp/238.1.78.37:4088
-#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",广东卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.25:4312
-#EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",四川卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.51:4520
-#EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",湖南卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.38:4416
-#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",深圳卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.26:4320
-#EXTINF:-1 tvg-id="山东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",山东卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.29:4344
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="安徽4K组播",北京卫视 4K
-http://60.168.237.238:6688/rtp/238.1.79.24:4304
