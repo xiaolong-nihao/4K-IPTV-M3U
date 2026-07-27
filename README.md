@@ -55,10 +55,7 @@ GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因�
 </tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap;">上海电信.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">山西联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">重庆联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">重庆联通1.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A1.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A1.m3u</code></td></tr>
+<tr><td style="white-space:nowrap;">山西联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 22:22:30</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.m3u</code></td></tr>
 </tbody>
 </table>
 ## TXT 文件列表
@@ -79,10 +76,7 @@ GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因�
 </tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap;">上海电信.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1.txt</code></td></tr>
-<tr><td style="white-space:nowrap;">山西联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.txt</code></td></tr>
-<tr><td style="white-space:nowrap;">重庆联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A.txt</code></td></tr>
-<tr><td style="white-space:nowrap;">重庆联通1.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A1.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 10:31:11</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A1.txt</code></td></tr>
+<tr><td style="white-space:nowrap;">山西联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-07-27 22:22:30</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A.txt</code></td></tr>
 </tbody>
 </table>
 ---
