@@ -55,9 +55,7 @@ GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因�
 </tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap;">内蒙古联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E5%86%85%E8%92%99%E5%8F%A4%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-08-07 10:26:14</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E5%86%85%E8%92%99%E5%8F%A4%E8%81%94%E9%80%9A.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">河南联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-08-07 10:26:14</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.m3u</code></td></tr>
-<tr><td style="white-space:nowrap;">辽宁联通.m3u</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.m3u">下载链接</a></td><td style="white-space:nowrap;">2026-08-07 10:26:14</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/m3u/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.m3u</code></td></tr>
+<tr><td colspan="4">暂无文件</td></tr>
 </tbody>
 </table>
 ## TXT 文件列表
@@ -78,9 +76,7 @@ GitHub README 不支持可执行脚本，`onclick` 复制按钮会失效，因�
 </tr>
 </thead>
 <tbody>
-<tr><td style="white-space:nowrap;">内蒙古联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E5%86%85%E8%92%99%E5%8F%A4%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-08-07 10:26:14</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E5%86%85%E8%92%99%E5%8F%A4%E8%81%94%E9%80%9A.txt</code></td></tr>
-<tr><td style="white-space:nowrap;">河南联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-08-07 10:26:14</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A.txt</code></td></tr>
-<tr><td style="white-space:nowrap;">辽宁联通.txt</td><td style="white-space:nowrap;"><a href="https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.txt">下载链接</a></td><td style="white-space:nowrap;">2026-08-07 10:26:14</td><td><code>https://gh-proxy.org/https://raw.githubusercontent.com/jia070310/4K-IPTV-M3U/main/txt/%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A.txt</code></td></tr>
+<tr><td colspan="4">暂无文件</td></tr>
 </tbody>
 </table>
 ---
