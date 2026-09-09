@@ -1,11 +1,4 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
-#EXTINF:-1 group-title="天津4K组播",天津4K组播
-#EXTINF:-1 tvg-id="私享家 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%A7%81%E4%BA%AB%E5%AE%B6%204K.png" group-title="天津4K组播",私享家 4K
-http://117.8.140.88:8834/rtp/225.1.1.156:5002
-#EXTINF:-1 tvg-id="影视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%BD%B1%E8%A7%86%204K.png" group-title="天津4K组播",影视 4K
-http://117.8.140.88:8834/rtp/225.1.2.190:5002
-#EXTINF:-1 tvg-id="欢笑剧场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA%204K.png" group-title="天津4K组播",欢笑剧场 4K
-http://117.8.140.88:8834/rtp/225.1.1.139:5002
 #EXTINF:-1 group-title="重庆4K组播",重庆4K组播
 #EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="重庆4K组播",北京卫视 4K
 http://27.10.214.5:8010/rtp/225.0.4.122:7980
