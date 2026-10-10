@@ -1,59 +1,57 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
-#EXTINF:-1 group-title="广东4K组播",广东4K组播
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",北京卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.2:5146
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",北京卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.3:5146
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",北京卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.153:5146
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",北京卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.233:5146
-#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",北京卫视 4K
-http://14.221.176.108:4022/rtp/239.77.1.13:5146
-#EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",东方卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.59:5146
-#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",广东卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.27:5146
-#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",广东卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.65:5146
-#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",广东卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.66:5146
-#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",深圳卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.67:5146
-#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",深圳卫视 4K
-http://14.221.176.108:4022/rtp/239.77.1.14:5146
-#EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",湖南卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.56:5146
-#EXTINF:-1 tvg-id="山东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",山东卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.61:5146
-#EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",四川卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.60:5146
-#EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",浙江卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.58:5146
-#EXTINF:-1 tvg-id="江苏卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%204K.png" group-title="广东4K组播",江苏卫视 4K
-http://14.221.176.108:4022/rtp/239.77.0.57:5146
-#EXTINF:-1 tvg-id="广东综艺 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E7%BB%BC%E8%89%BA%204K.png" group-title="广东4K组播",广东综艺 4K
-http://14.221.176.108:4022/rtp/239.77.0.244:5146
-#EXTINF:-1 tvg-id="广东综艺 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E7%BB%BC%E8%89%BA%204K.png" group-title="广东4K组播",广东综艺 4K
-http://14.221.176.108:4022/rtp/239.77.0.245:5146
-#EXTINF:-1 tvg-id="广东综艺 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E7%BB%BC%E8%89%BA%204K.png" group-title="广东4K组播",广东综艺 4K
-http://14.221.176.108:4022/rtp/239.77.1.237:5146
-#EXTINF:-1 tvg-id="南国都市 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8D%97%E5%9B%BD%E9%83%BD%E5%B8%82%204K.png" group-title="广东4K组播",南国都市 4K
-http://14.221.176.108:4022/rtp/239.253.43.99:5146
-#EXTINF:-1 group-title="河南4K组播",河南4K组播
-#EXTINF:-1 tvg-id="百视通 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%99%BE%E8%A7%86%E9%80%9A%204K.png" group-title="河南4K组播",百视通 4K
-http://123.162.221.134:8000/rtp/239.16.20.158:11580
-#EXTINF:-1 tvg-id="百视通 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%99%BE%E8%A7%86%E9%80%9A%204K.png" group-title="河南4K组播",百视通 4K
-http://123.162.221.134:8000/rtp/239.16.20.254:12540
-#EXTINF:-1 tvg-id="河南卫视4K测试 6M1080" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%864K%E6%B5%8B%E8%AF%95%206M1080.png" group-title="河南4K组播",河南卫视4K测试 6M1080
-http://123.162.221.134:8000/rtp/239.16.20.199:11990
-#EXTINF:-1 tvg-id="百视通4K测试" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%99%BE%E8%A7%86%E9%80%9A4K%E6%B5%8B%E8%AF%95.png" group-title="河南4K组播",百视通4K测试
-http://123.162.221.134:8000/rtp/239.16.20.223:12230
-#EXTINF:-1 tvg-id="百视通4K测试" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%99%BE%E8%A7%86%E9%80%9A4K%E6%B5%8B%E8%AF%95.png" group-title="河南4K组播",百视通4K测试
-http://123.162.221.134:8000/rtp/239.16.20.225:12250
-#EXTINF:-1 tvg-id="百视通4K测试" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%99%BE%E8%A7%86%E9%80%9A4K%E6%B5%8B%E8%AF%95.png" group-title="河南4K组播",百视通4K测试
-http://123.162.221.134:8000/rtp/239.16.20.249:12490
-#EXTINF:-1 tvg-id="测试 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%8B%E8%AF%95%204K.png" group-title="河南4K组播",测试 4K
-http://123.162.221.134:8000/rtp/239.16.20.238:12380
-#EXTINF:-1 tvg-id="河南4K实验 6M2160" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B2%B3%E5%8D%974K%E5%AE%9E%E9%AA%8C%206M2160.png" group-title="河南4K组播",河南4K实验 6M2160
-http://123.162.221.134:8000/rtp/239.16.10.210:2000
+#EXTINF:-1 group-title="上海4K组播",上海4K组播
+#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",北京卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.209:5140
+#EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",东方卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.224:5140
+#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",广东卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.218:5140
+#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",深圳卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.219:5140
+#EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",湖南卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.227:5140
+#EXTINF:-1 tvg-id="山东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",山东卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.228:5140
+#EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",四川卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.225:5140
+#EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",浙江卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.229:5140
+#EXTINF:-1 tvg-id="江苏卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%204K.png" group-title="上海4K组播",江苏卫视 4K
+http://124.77.177.44:5555/rtp/233.18.204.226:5140
+#EXTINF:-1 tvg-id="欢笑剧场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA%204K.png" group-title="上海4K组播",欢笑剧场 4K
+http://124.77.177.44:5555/rtp/233.18.204.115:5140
+#EXTINF:-1 tvg-id="欢笑剧场 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%AC%A2%E7%AC%91%E5%89%A7%E5%9C%BA%204K.png" group-title="上海4K组播",欢笑剧场 4K
+http://124.77.177.44:5555/rtp/233.18.204.205:5140
+#EXTINF:-1 tvg-id="BesTV4K动画" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/BesTV4K%E5%8A%A8%E7%94%BB.png" group-title="上海4K组播",BesTV4K动画
+http://124.77.177.44:5555/rtp/233.18.204.171:5140
+#EXTINF:-1 tvg-id="BesTV4K电影" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/BesTV4K%E7%94%B5%E5%BD%B1.png" group-title="上海4K组播",BesTV4K电影
+http://124.77.177.44:5555/rtp/233.18.204.169:5140
+#EXTINF:-1 tvg-id="BesTV4K记录" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/BesTV4K%E8%AE%B0%E5%BD%95.png" group-title="上海4K组播",BesTV4K记录
+http://124.77.177.44:5555/rtp/233.18.204.170:5140
+#EXTINF:-1 tvg-id="天翼 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%A4%A9%E7%BF%BC%204K.png" group-title="上海4K组播",天翼 4K
+http://124.77.177.44:5555/rtp/233.18.204.201:5140
+#EXTINF:-1 tvg-id="四川卫视4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%864K.png" group-title="上海4K组播",四川卫视4K
+http://124.77.177.44:5555/rtp/233.18.204.99:5140
+#EXTINF:-1 group-title="广西4K组播",广西4K组播
+#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",北京卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.226:4056
+#EXTINF:-1 tvg-id="北京卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",北京卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.225:4056
+#EXTINF:-1 tvg-id="东方卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",东方卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.76:4056
+#EXTINF:-1 tvg-id="广东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",广东卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.252:4056
+#EXTINF:-1 tvg-id="深圳卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",深圳卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.254:4056
+#EXTINF:-1 tvg-id="湖南卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",湖南卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.72:4056
+#EXTINF:-1 tvg-id="山东卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",山东卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.78:4056
+#EXTINF:-1 tvg-id="四川卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",四川卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.80:4056
+#EXTINF:-1 tvg-id="浙江卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",浙江卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.75:4056
+#EXTINF:-1 tvg-id="江苏卫视 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86%204K.png" group-title="广西4K组播",江苏卫视 4K
+http://180.143.141.150:9003/rtp/239.81.0.73:4056
+#EXTINF:-1 tvg-id="华数电影 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E5%8D%8E%E6%95%B0%E7%94%B5%E5%BD%B1%204K.png" group-title="广西4K组播",华数电影 4K
+http://180.143.141.150:9003/rtp/239.81.0.123:4056
