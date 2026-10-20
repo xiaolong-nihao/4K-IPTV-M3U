@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
 #EXTINF:-1 group-title="四川4K组播",四川4K组播
 #EXTINF:-1 tvg-id="超电影 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E8%B6%85%E7%94%B5%E5%BD%B1%204K.png" group-title="四川4K组播",超电影 4K
-http://117.172.235.50:60000/rtp/239.10.0.187:5140
+http://183.223.22.80:1024/rtp/239.10.0.187:5140
 #EXTINF:-1 tvg-id="爱上 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%88%B1%E4%B8%8A%204K.png" group-title="四川4K组播",爱上 4K
-http://117.172.235.50:60000/rtp/239.11.0.120:5140
+http://183.223.22.80:1024/rtp/239.11.0.120:5140
 #EXTINF:-1 tvg-id="真 4K" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/%E7%9C%9F%204K.png" group-title="四川4K组播",真 4K
-http://117.172.235.50:60000/rtp/239.11.0.122:5140
+http://183.223.22.80:1024/rtp/239.11.0.122:5140
